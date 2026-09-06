@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 96" fill="none" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">Freight Lodge</title>
+  <g transform="translate(2,4)">
+    <path d="M62 20V10h8v12" stroke="#242A2E" stroke-width="3.2" stroke-linecap="square"/>
+    <path d="M10 36 L46 8 L70 32" stroke="#242A2E" stroke-width="3.2" stroke-linejoin="miter" stroke-linecap="square"/>
+    <path d="M70 32 L90 24" stroke="#242A2E" stroke-width="3.2" stroke-linecap="square"/>
+    <path d="M12 36 H52 V80 H12 Z" fill="#242A2E"/>
+    <g stroke="#F6F1E8" stroke-width="2.2">
+      <path d="M18.5 39 V77"/>
+      <path d="M25.5 39 V77"/>
+      <path d="M32.5 39 V77"/>
+      <path d="M39.5 39 V77"/>
+      <path d="M46.5 39 V77"/>
+    </g>
+    <path d="M52 36 L90 24 V64 L52 80 Z" fill="#0C4A54"/>
+    <path d="M58 54 L74 49.2 L74 45.2 L86 52.2 L74 59.2 L74 55.2 Z" fill="#F6F1E8"/>
+  </g>
+  <text x="118" y="44" fill="#0C4A54" font-family="DM Sans, Avenir Next, Segoe UI, Helvetica, Arial, sans-serif" font-size="32" font-weight="650" letter-spacing="-0.03em">Freight</text>
+  <text x="118" y="80" fill="#242A2E" font-family="DM Sans, Avenir Next, Segoe UI, Helvetica, Arial, sans-serif" font-size="32" font-weight="650" letter-spacing="-0.03em">Lodge</text>
+</svg>

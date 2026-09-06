@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 88" fill="none" role="img" aria-labelledby="markTitle">
+  <title id="markTitle">Freight Lodge mark</title>
+  <!-- Roof + chimney (charcoal outline sitting on the container) -->
+  <path d="M62 20V10h8v12" stroke="#242A2E" stroke-width="3.2" stroke-linecap="square"/>
+  <path d="M10 36 L46 8 L70 32" stroke="#242A2E" stroke-width="3.2" stroke-linejoin="miter" stroke-linecap="square"/>
+  <!-- Right roof rake for three-quarter depth -->
+  <path d="M70 32 L90 24" stroke="#242A2E" stroke-width="3.2" stroke-linecap="square"/>
+
+  <!-- Container left face (corrugated) -->
+  <path d="M12 36 H52 V80 H12 Z" fill="#242A2E"/>
+  <g stroke="#F6F1E8" stroke-width="2.2" stroke-linecap="butt">
+    <path d="M18.5 39 V77"/>
+    <path d="M25.5 39 V77"/>
+    <path d="M32.5 39 V77"/>
+    <path d="M39.5 39 V77"/>
+    <path d="M46.5 39 V77"/>
+  </g>
+
+  <!-- Container right face (teal + arrow) -->
+  <path d="M52 36 L90 24 V64 L52 80 Z" fill="#0C4A54"/>
+  <!-- Bold white arrow cut through the side, suggesting movement -->
+  <path d="M58 54 L74 49.2 L74 45.2 L86 52.2 L74 59.2 L74 55.2 Z" fill="#F6F1E8"/>
+</svg>
