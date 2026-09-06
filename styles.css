@@ -118,12 +118,12 @@ a:hover {
 }
 
 .logo-lockup-nav {
-  /* Official lockup is a 1536×1024 cream field; crop to the centered mark. */
+  /* Transparent lockup (exact mark, white field knocked out). */
   height: 48px;
-  width: 210px;
-  max-width: min(220px, 58vw);
-  object-fit: cover;
-  object-position: center;
+  width: auto;
+  max-width: min(240px, 62vw);
+  object-fit: contain;
+  object-position: left center;
 }
 
 .logo-lockup-hero {
