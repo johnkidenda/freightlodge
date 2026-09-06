@@ -101,39 +101,38 @@ a:hover {
 .brand {
   display: flex;
   align-items: center;
-  gap: 12px;
   text-decoration: none;
   color: inherit;
+  flex: 0 1 auto;
+  min-width: 0;
 }
 
 .brand:hover {
   color: inherit;
 }
 
-.brand img {
-  width: 46px;
-  height: 42px;
+.logo-lockup {
   display: block;
+  object-fit: contain;
+  object-position: center;
 }
 
-.brand-type {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.05;
+.logo-lockup-nav {
+  /* Official lockup is a 1536×1024 cream field; crop to the centered mark. */
+  height: 48px;
+  width: 210px;
+  max-width: min(220px, 58vw);
+  object-fit: cover;
+  object-position: center;
 }
 
-.brand-type .freight {
-  color: var(--teal);
-  font-weight: 650;
-  font-size: 1.15rem;
-  letter-spacing: -0.03em;
-}
-
-.brand-type .lodge {
-  color: var(--charcoal);
-  font-weight: 650;
-  font-size: 1.15rem;
-  letter-spacing: -0.03em;
+.logo-lockup-hero {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 36rem);
+  height: auto;
+  max-height: 24rem;
+  object-fit: contain;
 }
 
 .nav {
@@ -270,63 +269,12 @@ h3 {
   min-height: 280px;
   display: grid;
   place-items: center;
-  padding: 36px 24px;
-  background:
-    linear-gradient(180deg, rgba(244, 239, 230, 0.55), rgba(248, 244, 236, 0.92)),
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 18px,
-      rgba(12, 74, 84, 0.035) 18px 19px
-    ),
-    var(--cream);
+  padding: 16px;
+  background: var(--cream);
   border: 1px solid var(--line);
   border-radius: 20px;
   box-shadow: var(--shadow);
   overflow: hidden;
-}
-
-.hero-visual::before {
-  content: "";
-  position: absolute;
-  inset: auto 0 0;
-  height: 42%;
-  background:
-    linear-gradient(180deg, transparent, rgba(12, 74, 84, 0.06)),
-    repeating-linear-gradient(
-      180deg,
-      transparent 0 14px,
-      rgba(36, 42, 46, 0.04) 14px 15px
-    );
-  opacity: 0.55;
-  pointer-events: none;
-}
-
-.hero-visual::after {
-  content: "";
-  position: absolute;
-  left: 8%;
-  right: 8%;
-  bottom: 18%;
-  height: 1px;
-  background: rgba(36, 42, 46, 0.12);
-}
-
-.hero-lockup {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  gap: 18px;
-}
-
-.hero-lockup img {
-  width: min(118px, 28vw);
-  height: auto;
-}
-
-.hero-lockup .brand-type .freight,
-.hero-lockup .brand-type .lodge {
-  font-size: clamp(1.8rem, 5vw, 2.7rem);
 }
 
 .section {
