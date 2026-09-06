@@ -6,9 +6,11 @@ This repository is **marketing only**. It explains the offer and captures quote 
 
 ## Pages URL
 
-GitHub Pages serves the site from the `main` branch, repository root (`index.html`):
+GitHub Pages should serve the site from the `main` branch, repository root (`index.html`) — same pattern as `ltl-quote`.
 
 **https://johnkidenda.github.io/freightlodge/**
+
+If that URL 404s, enable Pages once: GitHub → Settings → Pages → Deploy from a branch → `main` / `/` (root). The token used to open this PR cannot flip that switch.
 
 `freightlodge.com` is parked for now. Point DNS here when branding is ready.
 
