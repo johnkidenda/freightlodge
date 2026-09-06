@@ -24,7 +24,7 @@ Open `http://localhost:8080`. The quote form validates in the browser and shows 
 
 ## Brand
 
-Nav and hero use Option B (lodge + container). Vector lockup lives in `/assets/`.
+Nav and hero use the locked Option B PNG lockup only: `assets/logo-b.png` (icon + Freight Lodge wordmark). Do not substitute an SVG redraw.
 
 ## Status
 
