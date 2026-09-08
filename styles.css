@@ -1,6 +1,5 @@
 :root {
   --paper: #f4efe6;
-  --paper-deep: #ebe4d6;
   --cream: #f8f4ec;
   --white: #fffdf8;
   --teal: #0c4a54;
@@ -254,13 +253,64 @@ h3 {
   margin: 0 0 24px;
   color: var(--muted);
   font-size: 1.12rem;
-  max-width: 40rem;
+  max-width: 44rem;
 }
 
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
+}
+
+.trust-chips {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 0;
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.trust-chips li {
+  display: inline-flex;
+  align-items: center;
+  color: var(--teal);
+  font-size: 0.8rem;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+  line-height: 1.3;
+}
+
+.trust-chips li:not(:last-child)::after {
+  content: "·";
+  margin: 0 10px;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.trust-chips-on-teal {
+  margin: 0 0 22px;
+}
+
+.trust-chips-on-teal li {
+  color: var(--cream);
+}
+
+.trust-chips-on-teal li:not(:last-child)::after {
+  color: rgba(248, 244, 236, 0.55);
+}
+
+.section-for-whom {
+  padding: 8px 0 36px;
+}
+
+.for-whom {
+  margin: 0;
+  padding-left: 16px;
+  border-left: 3px solid var(--teal);
+  color: var(--charcoal);
+  font-size: 1.08rem;
 }
 
 .hero-visual {
@@ -344,18 +394,6 @@ h3 {
   margin: 0;
   color: var(--muted);
   font-size: 0.98rem;
-}
-
-.not-this {
-  padding: 22px 24px;
-  background: var(--paper-deep);
-  border-radius: var(--radius);
-  border: 1px solid var(--line);
-}
-
-.not-this p {
-  margin: 0;
-  color: var(--charcoal);
 }
 
 .trust {
@@ -493,7 +531,7 @@ textarea {
 
 .closing p {
   margin: 0 auto;
-  max-width: 28rem;
+  max-width: 36rem;
   font-size: 1.25rem;
   color: var(--charcoal);
   letter-spacing: -0.02em;
